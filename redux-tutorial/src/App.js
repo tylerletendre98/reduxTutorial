@@ -1,10 +1,12 @@
-
+import Profile from './components/profile';
+import Login from './components/login'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-        <h1>hello world</h1>
+        <Profile />
+        <Login />
     </div>
   );
 }
